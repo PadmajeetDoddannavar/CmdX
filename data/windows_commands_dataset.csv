@@ -1,0 +1,1001 @@
+user_input,command
+Stop a Docker container,docker stop <container_id>
+Display the list of running Docker containers,docker ps
+Display the first 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -TotalCount 10"""
+Go back to the previous directory,cd ..
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Ping a server,ping <server_address>
+Push changes to remote repository,git push
+Verify for updates in the package manager,winget upgrade
+Remove a package using winget,winget uninstall <package_name>
+Delete a user,net user <username> /delete
+Add a new user,net user <username> <password> /add
+Display the list of users,net user
+Verify the status of a service,sc query <service_name>
+Display the last 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -Tail 10"""
+Display the list of users,net user
+Commit changes in Git,git commit -m 'Your message'
+Remove a package using winget,winget uninstall <package_name>
+Display the routing table,route print
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Run a Node.js application,node app.js
+Remove the directory named 'test',rmdir test
+Enumerate all files in the current directory,dir
+Display the list of installed packages,winget list
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Run a Docker container,docker run <image_name>
+Ping a server,ping <server_address>
+Kill the process with ID 1234,taskkill /PID 1234
+Run a Python script,python script.py
+Restart a service,sc restart <service_name>
+Display the current branch in Git,git branch
+Display the list of installed packages,winget list
+Display me the disk usage,dir /s
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Display me the contents of this folder,dir
+Add a new user,net user <username> <password> /add
+Pull changes from remote repository,git pull
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Run a Docker container,docker run <image_name>
+Add a new user,net user <username> <password> /add
+Display the current directory,cd
+Delete a user,net user <username> /delete
+Verify the version of Node.js,node -v
+Disable a service from starting on boot,sc config <service_name> start= disabled
+Push changes to remote repository,git push
+Move 'file.txt' to 'new_folder',move file.txt new_folder
+Run a Docker container,docker run <image_name>
+Make a file named 'newfile.txt',echo. > newfile.txt
+Restart a service,sc restart <service_name>
+Build a Docker image,docker build -t <image_name> .
+Remove a package using winget,winget uninstall <package_name>
+Run a Docker container,docker run <image_name>
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Disable a service from starting on boot,sc config <service_name> start= disabled
+Display the list of users,net user
+Make a new directory named 'test',mkdir test
+Stop a Docker container,docker stop <container_id>
+Restart a service,sc restart <service_name>
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Ping a server,ping <server_address>
+Display the current directory,cd
+Verify the current user,whoami
+Kill the process with ID 1234,taskkill /PID 1234
+Change directory to 'Documents',cd Documents
+Run a Docker container,docker run <image_name>
+Install a package using winget,winget install <package_name>
+Enumerate all files in the current directory,dir
+Display the list of installed packages,winget list
+Display the first 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -TotalCount 10"""
+Ping a server,ping <server_address>
+Go back to the previous directory,cd ..
+Enable a service to start on boot,sc config <service_name> start= auto
+Display the process status,tasklist
+Run a Python script,python script.py
+Remove a package using winget,winget uninstall <package_name>
+Run a Node.js application,node app.js
+Delete a user,net user <username> /delete
+Ping a server,ping <server_address>
+Run a Node.js application,node app.js
+Push changes to remote repository,git push
+Display the manual for the dir command,help dir
+Display the list of installed packages,winget list
+Delete the file 'example.txt',del example.txt
+Display the last 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -Tail 10"""
+Commit changes in Git,git commit -m 'Your message'
+Display the current Python version,python --version
+Move 'file.txt' to 'new_folder',move file.txt new_folder
+Commit changes in Git,git commit -m 'Your message'
+Verify the system uptime,"systeminfo | find ""System Boot Time"""
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Build a Docker image,docker build -t <image_name> .
+Verify the version of Node.js,node -v
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Delete the file 'example.txt',del example.txt
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Install a package using winget,winget install <package_name>
+Pull changes from remote repository,git pull
+Enable a service to start on boot,sc config <service_name> start= auto
+Go back to the previous directory,cd ..
+Run a Docker container,docker run <image_name>
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Change directory to 'Documents',cd Documents
+Install a package using winget,winget install <package_name>
+Go back to the previous directory,cd ..
+Display the list of users,net user
+Display the current Python version,python --version
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Delete the file 'example.txt',del example.txt
+Clone a repository from GitHub,git clone <repository_url>
+Run a Docker container,docker run <image_name>
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Run a Docker container,docker run <image_name>
+Delete a user,net user <username> /delete
+Display the manual for the dir command,help dir
+Start a service,sc start <service_name>
+Move 'file.txt' to 'new_folder',move file.txt new_folder
+Move 'file.txt' to 'new_folder',move file.txt new_folder
+Display me the contents of this folder,dir
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Enumerate all files in the current directory,dir
+Remove the directory named 'test',rmdir test
+Display the current date and time,echo %date% %time%
+Display me the contents of this folder,dir
+Stop a Docker container,docker stop <container_id>
+Stop a Docker container,docker stop <container_id>
+Verify the system uptime,"systeminfo | find ""System Boot Time"""
+Restart a service,sc restart <service_name>
+Stop a service,sc stop <service_name>
+Start a service,sc start <service_name>
+Display the list of installed packages,winget list
+Edit the file 'newfile.txt',notepad newfile.txt
+Verify the system uptime,"systeminfo | find ""System Boot Time"""
+Move 'file.txt' to 'new_folder',move file.txt new_folder
+Verify the available memory,"systeminfo | find ""Available Physical Memory"""
+Kill the process with ID 1234,taskkill /PID 1234
+Display the list of users,net user
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Display me the contents of this folder,dir
+Display the manual for the dir command,help dir
+Stop a service,sc stop <service_name>
+Display the list of installed packages,winget list
+Kill the process with ID 1234,taskkill /PID 1234
+Display the list of installed packages,winget list
+Verify the current user,whoami
+Remove the directory named 'test',rmdir test
+Enable a service to start on boot,sc config <service_name> start= auto
+Display the process status,tasklist
+Make a file named 'newfile.txt',echo. > newfile.txt
+Start a service,sc start <service_name>
+Display the list of running Docker containers,docker ps
+Run a Python script,python script.py
+Stop a service,sc stop <service_name>
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Ping a server,ping <server_address>
+Push changes to remote repository,git push
+Remove a package using winget,winget uninstall <package_name>
+Run a Python script,python script.py
+Run a Python script,python script.py
+Stop a service,sc stop <service_name>
+Start a service,sc start <service_name>
+Run a Node.js application,node app.js
+Commit changes in Git,git commit -m 'Your message'
+Display the current Python version,python --version
+Find all .txt files in this directory,dir *.txt
+Display me the disk usage,dir /s
+Enumerate all files in the current directory,dir
+Display the list of installed packages,winget list
+Clone a repository from GitHub,git clone <repository_url>
+Display me the contents of this folder,dir
+Run a Python script,python script.py
+Run a Docker container,docker run <image_name>
+Edit the file 'newfile.txt',notepad newfile.txt
+Copy the file 'source.txt' to 'dest.txt',copy source.txt dest.txt
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Restart a service,sc restart <service_name>
+Stop a service,sc stop <service_name>
+Make a new directory named 'test',mkdir test
+Verify for updates in the package manager,winget upgrade
+Delete the file 'example.txt',del example.txt
+Edit the file 'newfile.txt',notepad newfile.txt
+Build a Docker image,docker build -t <image_name> .
+Display hidden files,dir /a:h
+Run a Node.js application,node app.js
+Display the current directory,cd
+Verify for updates in the package manager,winget upgrade
+Display the manual for the dir command,help dir
+Display the list of installed packages,winget list
+Run a Python script,python script.py
+Run a Docker container,docker run <image_name>
+Clone a repository from GitHub,git clone <repository_url>
+Verify the available memory,"systeminfo | find ""Available Physical Memory"""
+Display the manual for the dir command,help dir
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Disable a service from starting on boot,sc config <service_name> start= disabled
+Disable a service from starting on boot,sc config <service_name> start= disabled
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Run a Node.js application,node app.js
+Make a new directory named 'test',mkdir test
+Push changes to remote repository,git push
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Build a Docker image,docker build -t <image_name> .
+Delete a user,net user <username> /delete
+Go back to the previous directory,cd ..
+Display the list of running Docker containers,docker ps
+Clone a repository from GitHub,git clone <repository_url>
+Display the manual for the dir command,help dir
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Ping a server,ping <server_address>
+Restart a service,sc restart <service_name>
+Build a Docker image,docker build -t <image_name> .
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Run a Python script,python script.py
+Enumerate all files in the current directory,dir
+Display the process status,tasklist
+Run a Python script,python script.py
+Stop a Docker container,docker stop <container_id>
+Disable a service from starting on boot,sc config <service_name> start= disabled
+Run a Python script,python script.py
+Change directory to 'Documents',cd Documents
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Display the current branch in Git,git branch
+Pull changes from remote repository,git pull
+Display the first 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -TotalCount 10"""
+Go back to the previous directory,cd ..
+Display me the contents of this folder,dir
+Display the last 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -Tail 10"""
+Display the process status,tasklist
+Verify the available memory,"systeminfo | find ""Available Physical Memory"""
+Display the status of Git,git status
+Stop a service,sc stop <service_name>
+Remove the directory named 'test',rmdir test
+Display the environment variables,set
+Enable a service to start on boot,sc config <service_name> start= auto
+Display the list of running Docker containers,docker ps
+Pull changes from remote repository,git pull
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Edit the file 'newfile.txt',notepad newfile.txt
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Move 'file.txt' to 'new_folder',move file.txt new_folder
+Display the environment variables,set
+Run a Python script,python script.py
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Remove a package using winget,winget uninstall <package_name>
+Push changes to remote repository,git push
+Enable a service to start on boot,sc config <service_name> start= auto
+Make a file named 'newfile.txt',echo. > newfile.txt
+Display the current directory,cd
+Change directory to 'Documents',cd Documents
+Delete a user,net user <username> /delete
+Add changes to Git,git add .
+Run a Docker container,docker run <image_name>
+Display the list of users,net user
+Install a package using winget,winget install <package_name>
+Display me the contents of this folder,dir
+Remove the directory named 'test',rmdir test
+Display the process status,tasklist
+Verify the status of a service,sc query <service_name>
+Verify the current user,whoami
+Add a new user,net user <username> <password> /add
+Verify the available memory,"systeminfo | find ""Available Physical Memory"""
+Display network connections,netstat -an
+Display the first 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -TotalCount 10"""
+Display the manual for the dir command,help dir
+Make a file named 'newfile.txt',echo. > newfile.txt
+Display me the contents of this folder,dir
+Run a Node.js application,node app.js
+Push changes to remote repository,git push
+Find all .txt files in this directory,dir *.txt
+Copy the file 'source.txt' to 'dest.txt',copy source.txt dest.txt
+Copy the file 'source.txt' to 'dest.txt',copy source.txt dest.txt
+Verify for updates in the package manager,winget upgrade
+Build a Docker image,docker build -t <image_name> .
+Add a new user,net user <username> <password> /add
+Add a new user,net user <username> <password> /add
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Stop a Docker container,docker stop <container_id>
+Install a package using winget,winget install <package_name>
+Display the first 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -TotalCount 10"""
+Make a file named 'newfile.txt',echo. > newfile.txt
+Display the first 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -TotalCount 10"""
+Pull changes from remote repository,git pull
+Display hidden files,dir /a:h
+Add a new user,net user <username> <password> /add
+Start a service,sc start <service_name>
+Run a Docker container,docker run <image_name>
+Display the current Python version,python --version
+Add a new user,net user <username> <password> /add
+Display the environment variables,set
+Display me the disk usage,dir /s
+Display the current branch in Git,git branch
+Display the list of installed packages,winget list
+Display the list of users,net user
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Stop a service,sc stop <service_name>
+Display the last 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -Tail 10"""
+Display the current branch in Git,git branch
+Edit the file 'newfile.txt',notepad newfile.txt
+Display the list of running Docker containers,docker ps
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Display me the contents of this folder,dir
+Display the last 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -Tail 10"""
+Display the list of users,net user
+Stop a Docker container,docker stop <container_id>
+Display the current Python version,python --version
+Delete a user,net user <username> /delete
+Go back to the previous directory,cd ..
+Display the routing table,route print
+Stop a Docker container,docker stop <container_id>
+Commit changes in Git,git commit -m 'Your message'
+Remove a package using winget,winget uninstall <package_name>
+Display the current network configuration,ipconfig
+Display the current date and time,echo %date% %time%
+Verify for updates in the package manager,winget upgrade
+Stop a service,sc stop <service_name>
+Make a new directory named 'test',mkdir test
+Display me the contents of this folder,dir
+Run a Python script,python script.py
+Push changes to remote repository,git push
+Copy the file 'source.txt' to 'dest.txt',copy source.txt dest.txt
+Verify the status of a service,sc query <service_name>
+Run a Docker container,docker run <image_name>
+Copy the file 'source.txt' to 'dest.txt',copy source.txt dest.txt
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Make a file named 'newfile.txt',echo. > newfile.txt
+Display the current Python version,python --version
+Pull changes from remote repository,git pull
+Change directory to 'Documents',cd Documents
+Remove a Docker container,docker rm <container_id>
+Display the manual for the dir command,help dir
+Enable a service to start on boot,sc config <service_name> start= auto
+Commit changes in Git,git commit -m 'Your message'
+Stop a Docker container,docker stop <container_id>
+Stop a service,sc stop <service_name>
+Delete a user,net user <username> /delete
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Display the current Python version,python --version
+Pull changes from remote repository,git pull
+Remove a package using winget,winget uninstall <package_name>
+Display the list of users,net user
+Find all .txt files in this directory,dir *.txt
+Make a new directory named 'test',mkdir test
+Display the last 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -Tail 10"""
+Restart a service,sc restart <service_name>
+Verify the system uptime,"systeminfo | find ""System Boot Time"""
+Verify the current user,whoami
+Display me the disk usage,dir /s
+Make a new directory named 'test',mkdir test
+Display hidden files,dir /a:h
+Display the current date and time,echo %date% %time%
+Clone a repository from GitHub,git clone <repository_url>
+Verify the available memory,"systeminfo | find ""Available Physical Memory"""
+Build a Docker image,docker build -t <image_name> .
+Kill the process with ID 1234,taskkill /PID 1234
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Display the last 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -Tail 10"""
+Build a Docker image,docker build -t <image_name> .
+Verify the status of a service,sc query <service_name>
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Display the first 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -TotalCount 10"""
+Commit changes in Git,git commit -m 'Your message'
+Verify for updates in the package manager,winget upgrade
+Change directory to 'Documents',cd Documents
+Restart a service,sc restart <service_name>
+Enumerate all files in the current directory,dir
+Verify for updates in the package manager,winget upgrade
+Build a Docker image,docker build -t <image_name> .
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Display me the contents of this folder,dir
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Restart a service,sc restart <service_name>
+Display the routing table,route print
+Ping a server,ping <server_address>
+Edit the file 'newfile.txt',notepad newfile.txt
+Delete a user,net user <username> /delete
+Display the last 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -Tail 10"""
+Display the current network configuration,ipconfig
+Build a Docker image,docker build -t <image_name> .
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Add changes to Git,git add .
+Display me the disk usage,dir /s
+Stop a Docker container,docker stop <container_id>
+Make a new directory named 'test',mkdir test
+Find all .txt files in this directory,dir *.txt
+Display me the disk usage,dir /s
+Display the current branch in Git,git branch
+Remove the directory named 'test',rmdir test
+Clone a repository from GitHub,git clone <repository_url>
+Verify the version of Node.js,node -v
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Restart a service,sc restart <service_name>
+Remove the directory named 'test',rmdir test
+Delete a user,net user <username> /delete
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Display hidden files,dir /a:h
+Run a Node.js application,node app.js
+Run a Node.js application,node app.js
+Display the process status,tasklist
+Display the current Python version,python --version
+Display the list of running Docker containers,docker ps
+Ping a server,ping <server_address>
+Display the current branch in Git,git branch
+Display the status of Git,git status
+Run a Docker container,docker run <image_name>
+Display me the contents of this folder,dir
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Display the current Python version,python --version
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Clone a repository from GitHub,git clone <repository_url>
+Make a file named 'newfile.txt',echo. > newfile.txt
+Display the current network configuration,ipconfig
+Make a file named 'newfile.txt',echo. > newfile.txt
+Display the first 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -TotalCount 10"""
+Display the list of running Docker containers,docker ps
+Delete the file 'example.txt',del example.txt
+Add changes to Git,git add .
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Disable a service from starting on boot,sc config <service_name> start= disabled
+Verify the system uptime,"systeminfo | find ""System Boot Time"""
+Add a new user,net user <username> <password> /add
+Commit changes in Git,git commit -m 'Your message'
+Run a Node.js application,node app.js
+Display the current directory,cd
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Verify the status of a service,sc query <service_name>
+Delete a user,net user <username> /delete
+Add a new user,net user <username> <password> /add
+Display network connections,netstat -an
+Display the list of installed packages,winget list
+Run a Docker container,docker run <image_name>
+Display the environment variables,set
+Copy the file 'source.txt' to 'dest.txt',copy source.txt dest.txt
+Run a Docker container,docker run <image_name>
+Enable a service to start on boot,sc config <service_name> start= auto
+Go back to the previous directory,cd ..
+Verify for updates in the package manager,winget upgrade
+Display the routing table,route print
+Verify the status of a service,sc query <service_name>
+Display the process status,tasklist
+Ping a server,ping <server_address>
+Push changes to remote repository,git push
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Kill the process with ID 1234,taskkill /PID 1234
+Display the status of Git,git status
+Install a package using winget,winget install <package_name>
+Kill the process with ID 1234,taskkill /PID 1234
+Install a package using winget,winget install <package_name>
+Display the last 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -Tail 10"""
+Restart a service,sc restart <service_name>
+Kill the process with ID 1234,taskkill /PID 1234
+Pull changes from remote repository,git pull
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Disable a service from starting on boot,sc config <service_name> start= disabled
+Restart a service,sc restart <service_name>
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Enable a service to start on boot,sc config <service_name> start= auto
+Verify the available memory,"systeminfo | find ""Available Physical Memory"""
+Add changes to Git,git add .
+Display the current network configuration,ipconfig
+Display me the contents of this folder,dir
+Move 'file.txt' to 'new_folder',move file.txt new_folder
+Start a service,sc start <service_name>
+Stop a Docker container,docker stop <container_id>
+Go back to the previous directory,cd ..
+Display the environment variables,set
+Find all .txt files in this directory,dir *.txt
+Delete a user,net user <username> /delete
+Push changes to remote repository,git push
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Display the current date and time,echo %date% %time%
+Verify the current user,whoami
+Go back to the previous directory,cd ..
+Remove a Docker container,docker rm <container_id>
+Edit the file 'newfile.txt',notepad newfile.txt
+Add a new user,net user <username> <password> /add
+Start a service,sc start <service_name>
+Display me the disk usage,dir /s
+Verify the status of a service,sc query <service_name>
+Add a new user,net user <username> <password> /add
+Display the list of running Docker containers,docker ps
+Display the current date and time,echo %date% %time%
+Move 'file.txt' to 'new_folder',move file.txt new_folder
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Go back to the previous directory,cd ..
+Display network connections,netstat -an
+Build a Docker image,docker build -t <image_name> .
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Copy the file 'source.txt' to 'dest.txt',copy source.txt dest.txt
+Enable a service to start on boot,sc config <service_name> start= auto
+Move 'file.txt' to 'new_folder',move file.txt new_folder
+Remove the directory named 'test',rmdir test
+Display the current date and time,echo %date% %time%
+Change directory to 'Documents',cd Documents
+Make a new directory named 'test',mkdir test
+Change directory to 'Documents',cd Documents
+Remove a package using winget,winget uninstall <package_name>
+Edit the file 'newfile.txt',notepad newfile.txt
+Enable a service to start on boot,sc config <service_name> start= auto
+Remove the directory named 'test',rmdir test
+Build a Docker image,docker build -t <image_name> .
+Push changes to remote repository,git push
+Go back to the previous directory,cd ..
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Copy the file 'source.txt' to 'dest.txt',copy source.txt dest.txt
+Verify for updates in the package manager,winget upgrade
+Display the routing table,route print
+Add changes to Git,git add .
+Verify the available memory,"systeminfo | find ""Available Physical Memory"""
+Delete a user,net user <username> /delete
+Display the current branch in Git,git branch
+Display the environment variables,set
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Display the first 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -TotalCount 10"""
+Edit the file 'newfile.txt',notepad newfile.txt
+Verify the status of a service,sc query <service_name>
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Verify the system uptime,"systeminfo | find ""System Boot Time"""
+Display me the disk usage,dir /s
+Display me the disk usage,dir /s
+Run a Docker container,docker run <image_name>
+Verify the system uptime,"systeminfo | find ""System Boot Time"""
+Add a new user,net user <username> <password> /add
+Start a service,sc start <service_name>
+Verify the version of Node.js,node -v
+Install a package using winget,winget install <package_name>
+Enumerate all files in the current directory,dir
+Remove a package using winget,winget uninstall <package_name>
+Delete the file 'example.txt',del example.txt
+Display the manual for the dir command,help dir
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Add a new user,net user <username> <password> /add
+Commit changes in Git,git commit -m 'Your message'
+Display the first 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -TotalCount 10"""
+Go back to the previous directory,cd ..
+Display the list of users,net user
+Display the manual for the dir command,help dir
+Display the last 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -Tail 10"""
+Install a package using winget,winget install <package_name>
+Add a new user,net user <username> <password> /add
+Pull changes from remote repository,git pull
+Change directory to 'Documents',cd Documents
+Display the status of Git,git status
+Display me the contents of this folder,dir
+Install a package using winget,winget install <package_name>
+Change directory to 'Documents',cd Documents
+Stop a Docker container,docker stop <container_id>
+Display the last 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -Tail 10"""
+Enumerate all files in the current directory,dir
+Stop a Docker container,docker stop <container_id>
+Edit the file 'newfile.txt',notepad newfile.txt
+Ping a server,ping <server_address>
+Find all .txt files in this directory,dir *.txt
+Display the process status,tasklist
+Display hidden files,dir /a:h
+Change directory to 'Documents',cd Documents
+Remove a package using winget,winget uninstall <package_name>
+Display the last 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -Tail 10"""
+Make a new directory named 'test',mkdir test
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Display the current Python version,python --version
+Remove a package using winget,winget uninstall <package_name>
+Clone a repository from GitHub,git clone <repository_url>
+Display the environment variables,set
+Ping a server,ping <server_address>
+Display the first 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -TotalCount 10"""
+Display the current directory,cd
+Display the manual for the dir command,help dir
+Disable a service from starting on boot,sc config <service_name> start= disabled
+Run a Docker container,docker run <image_name>
+Display the current network configuration,ipconfig
+Ping a server,ping <server_address>
+Display the routing table,route print
+Restart a service,sc restart <service_name>
+Remove a Docker container,docker rm <container_id>
+Verify the version of Node.js,node -v
+Add changes to Git,git add .
+Make a file named 'newfile.txt',echo. > newfile.txt
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Run a Docker container,docker run <image_name>
+Display the environment variables,set
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Display me the disk usage,dir /s
+Commit changes in Git,git commit -m 'Your message'
+Pull changes from remote repository,git pull
+Find all .txt files in this directory,dir *.txt
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Change directory to 'Documents',cd Documents
+Enable a service to start on boot,sc config <service_name> start= auto
+Delete the file 'example.txt',del example.txt
+Go back to the previous directory,cd ..
+Go back to the previous directory,cd ..
+Change directory to 'Documents',cd Documents
+Kill the process with ID 1234,taskkill /PID 1234
+Display the current Python version,python --version
+Enumerate all files in the current directory,dir
+Display the last 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -Tail 10"""
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Display the list of installed packages,winget list
+Build a Docker image,docker build -t <image_name> .
+Verify for updates in the package manager,winget upgrade
+Display the environment variables,set
+Display the current date and time,echo %date% %time%
+Verify the status of a service,sc query <service_name>
+Display me the contents of this folder,dir
+Display me the disk usage,dir /s
+Display the routing table,route print
+Verify the status of a service,sc query <service_name>
+Remove a package using winget,winget uninstall <package_name>
+Disable a service from starting on boot,sc config <service_name> start= disabled
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Push changes to remote repository,git push
+Push changes to remote repository,git push
+Run a Python script,python script.py
+Run a Node.js application,node app.js
+Display the list of installed packages,winget list
+Display the current Python version,python --version
+Verify the system uptime,"systeminfo | find ""System Boot Time"""
+Display the first 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -TotalCount 10"""
+Verify the available memory,"systeminfo | find ""Available Physical Memory"""
+Remove the directory named 'test',rmdir test
+Run a Python script,python script.py
+Add a new user,net user <username> <password> /add
+Go back to the previous directory,cd ..
+Verify the version of Node.js,node -v
+Kill the process with ID 1234,taskkill /PID 1234
+Display the list of installed packages,winget list
+Display the current branch in Git,git branch
+Copy the file 'source.txt' to 'dest.txt',copy source.txt dest.txt
+Find all .txt files in this directory,dir *.txt
+Make a new directory named 'test',mkdir test
+Display the list of installed packages,winget list
+Run a Python script,python script.py
+Verify for updates in the package manager,winget upgrade
+Display the current Python version,python --version
+Kill the process with ID 1234,taskkill /PID 1234
+Display the current branch in Git,git branch
+Clone a repository from GitHub,git clone <repository_url>
+Enumerate all files in the current directory,dir
+Display the current branch in Git,git branch
+Run a Node.js application,node app.js
+Verify the status of a service,sc query <service_name>
+Stop a service,sc stop <service_name>
+Disable a service from starting on boot,sc config <service_name> start= disabled
+Display the list of users,net user
+Go back to the previous directory,cd ..
+Enable a service to start on boot,sc config <service_name> start= auto
+Edit the file 'newfile.txt',notepad newfile.txt
+Remove a Docker container,docker rm <container_id>
+Install a package using winget,winget install <package_name>
+Change directory to 'Documents',cd Documents
+Copy the file 'source.txt' to 'dest.txt',copy source.txt dest.txt
+Verify the status of a service,sc query <service_name>
+Enable a service to start on boot,sc config <service_name> start= auto
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Enumerate all files in the current directory,dir
+Display the current branch in Git,git branch
+Build a Docker image,docker build -t <image_name> .
+Remove a Docker container,docker rm <container_id>
+Push changes to remote repository,git push
+Add changes to Git,git add .
+Display the environment variables,set
+Add a new user,net user <username> <password> /add
+Verify the version of Node.js,node -v
+Verify the available memory,"systeminfo | find ""Available Physical Memory"""
+Display the current directory,cd
+Display the current branch in Git,git branch
+Display network connections,netstat -an
+Disable a service from starting on boot,sc config <service_name> start= disabled
+Verify the status of a service,sc query <service_name>
+Display the current directory,cd
+Display the current directory,cd
+Ping a server,ping <server_address>
+Verify the available memory,"systeminfo | find ""Available Physical Memory"""
+Display the list of installed packages,winget list
+Delete the file 'example.txt',del example.txt
+Pull changes from remote repository,git pull
+Edit the file 'newfile.txt',notepad newfile.txt
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Kill the process with ID 1234,taskkill /PID 1234
+Make a new directory named 'test',mkdir test
+Display the environment variables,set
+Remove the directory named 'test',rmdir test
+Display the list of installed packages,winget list
+Display the routing table,route print
+Commit changes in Git,git commit -m 'Your message'
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Display the routing table,route print
+Install a package using winget,winget install <package_name>
+Edit the file 'newfile.txt',notepad newfile.txt
+Verify the system uptime,"systeminfo | find ""System Boot Time"""
+Delete a user,net user <username> /delete
+Change directory to 'Documents',cd Documents
+Display the list of users,net user
+Delete the file 'example.txt',del example.txt
+Verify the status of a service,sc query <service_name>
+Run a Node.js application,node app.js
+Build a Docker image,docker build -t <image_name> .
+Display the environment variables,set
+Display the list of installed packages,winget list
+Display me the disk usage,dir /s
+Display hidden files,dir /a:h
+Display the environment variables,set
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Display the current Python version,python --version
+Remove a Docker container,docker rm <container_id>
+Stop a service,sc stop <service_name>
+Ping a server,ping <server_address>
+Install a package using winget,winget install <package_name>
+Display the list of installed packages,winget list
+Add a new user,net user <username> <password> /add
+Push changes to remote repository,git push
+Remove a package using winget,winget uninstall <package_name>
+Run a Node.js application,node app.js
+Enumerate all files in the current directory,dir
+Run a Python script,python script.py
+Run a Docker container,docker run <image_name>
+Stop a Docker container,docker stop <container_id>
+Display hidden files,dir /a:h
+Find all .txt files in this directory,dir *.txt
+Copy the file 'source.txt' to 'dest.txt',copy source.txt dest.txt
+Delete the file 'example.txt',del example.txt
+Display the list of users,net user
+Run a Docker container,docker run <image_name>
+Display the last 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -Tail 10"""
+Stop a service,sc stop <service_name>
+Display the current directory,cd
+Change directory to 'Documents',cd Documents
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Display the current network configuration,ipconfig
+Display network connections,netstat -an
+Run a Docker container,docker run <image_name>
+Verify the available memory,"systeminfo | find ""Available Physical Memory"""
+Restart a service,sc restart <service_name>
+Verify the available memory,"systeminfo | find ""Available Physical Memory"""
+Display network connections,netstat -an
+Verify for updates in the package manager,winget upgrade
+Clone a repository from GitHub,git clone <repository_url>
+Display network connections,netstat -an
+Ping a server,ping <server_address>
+Run a Node.js application,node app.js
+Stop a Docker container,docker stop <container_id>
+Display me the disk usage,dir /s
+Move 'file.txt' to 'new_folder',move file.txt new_folder
+Delete the file 'example.txt',del example.txt
+Verify the version of Node.js,node -v
+Stop a Docker container,docker stop <container_id>
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Run a Docker container,docker run <image_name>
+Disable a service from starting on boot,sc config <service_name> start= disabled
+Display the routing table,route print
+Move 'file.txt' to 'new_folder',move file.txt new_folder
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Display me the contents of this folder,dir
+Commit changes in Git,git commit -m 'Your message'
+Display the current directory,cd
+Restart a service,sc restart <service_name>
+Make a new directory named 'test',mkdir test
+Verify the version of Node.js,node -v
+Push changes to remote repository,git push
+Verify the available memory,"systeminfo | find ""Available Physical Memory"""
+Display the list of installed packages,winget list
+Display the current date and time,echo %date% %time%
+Start a service,sc start <service_name>
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Enumerate all files in the current directory,dir
+Display the current branch in Git,git branch
+Run a Python script,python script.py
+Display me the contents of this folder,dir
+Start a service,sc start <service_name>
+Delete the file 'example.txt',del example.txt
+Verify the version of Node.js,node -v
+Go back to the previous directory,cd ..
+Display the current branch in Git,git branch
+Display the current directory,cd
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Copy the file 'source.txt' to 'dest.txt',copy source.txt dest.txt
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Build a Docker image,docker build -t <image_name> .
+Display the list of installed packages,winget list
+Add a new user,net user <username> <password> /add
+Display network connections,netstat -an
+Restart a service,sc restart <service_name>
+Display the process status,tasklist
+Display the current Python version,python --version
+Find all .txt files in this directory,dir *.txt
+Display the current Python version,python --version
+Display the first 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -TotalCount 10"""
+Build a Docker image,docker build -t <image_name> .
+Display the current date and time,echo %date% %time%
+Verify the version of Node.js,node -v
+Clone a repository from GitHub,git clone <repository_url>
+Display the current directory,cd
+Enable a service to start on boot,sc config <service_name> start= auto
+Display the list of running Docker containers,docker ps
+Verify the status of a service,sc query <service_name>
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Run a Node.js application,node app.js
+Move 'file.txt' to 'new_folder',move file.txt new_folder
+Display the current network configuration,ipconfig
+Make a file named 'newfile.txt',echo. > newfile.txt
+Run a Python script,python script.py
+Restart a service,sc restart <service_name>
+Display the routing table,route print
+Run a Node.js application,node app.js
+Verify the current user,whoami
+Verify the version of Node.js,node -v
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Display the environment variables,set
+Display the first 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -TotalCount 10"""
+Restart a service,sc restart <service_name>
+Remove a package using winget,winget uninstall <package_name>
+Ping a server,ping <server_address>
+Display the environment variables,set
+Go back to the previous directory,cd ..
+Stop a Docker container,docker stop <container_id>
+Enable a service to start on boot,sc config <service_name> start= auto
+Display the current date and time,echo %date% %time%
+Delete a user,net user <username> /delete
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Verify the available memory,"systeminfo | find ""Available Physical Memory"""
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Verify the available memory,"systeminfo | find ""Available Physical Memory"""
+Display the environment variables,set
+Start a service,sc start <service_name>
+Display hidden files,dir /a:h
+Enable a service to start on boot,sc config <service_name> start= auto
+Remove the directory named 'test',rmdir test
+Add a new user,net user <username> <password> /add
+Display the current directory,cd
+Delete a user,net user <username> /delete
+Delete a user,net user <username> /delete
+Verify the version of Node.js,node -v
+Display me the contents of this folder,dir
+Find all .txt files in this directory,dir *.txt
+Verify the current user,whoami
+Remove the directory named 'test',rmdir test
+Display the routing table,route print
+Make a file named 'newfile.txt',echo. > newfile.txt
+Restart a service,sc restart <service_name>
+Display the list of installed packages,winget list
+Delete the file 'example.txt',del example.txt
+Delete a user,net user <username> /delete
+Delete a user,net user <username> /delete
+Display the current directory,cd
+Run a Python script,python script.py
+Display the current date and time,echo %date% %time%
+Remove the directory named 'test',rmdir test
+Verify for updates in the package manager,winget upgrade
+Display the current network configuration,ipconfig
+Add changes to Git,git add .
+Remove a Docker container,docker rm <container_id>
+Display the current date and time,echo %date% %time%
+Display the process status,tasklist
+Go back to the previous directory,cd ..
+Display the current directory,cd
+Delete the file 'example.txt',del example.txt
+Display the current branch in Git,git branch
+Display the list of running Docker containers,docker ps
+Display the current network configuration,ipconfig
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Display the manual for the dir command,help dir
+Display the list of users,net user
+Display the last 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -Tail 10"""
+Verify the version of Node.js,node -v
+Delete the file 'example.txt',del example.txt
+Display the current Python version,python --version
+Enumerate all files in the current directory,dir
+Kill the process with ID 1234,taskkill /PID 1234
+Kill the process with ID 1234,taskkill /PID 1234
+Restart a service,sc restart <service_name>
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Display the list of users,net user
+Find all .txt files in this directory,dir *.txt
+Ping a server,ping <server_address>
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Display network connections,netstat -an
+Display the manual for the dir command,help dir
+Display the current Python version,python --version
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Verify the current user,whoami
+Install a package using winget,winget install <package_name>
+Display the process status,tasklist
+Commit changes in Git,git commit -m 'Your message'
+Display the current network configuration,ipconfig
+Display the routing table,route print
+Run a Docker container,docker run <image_name>
+Display the manual for the dir command,help dir
+Edit the file 'newfile.txt',notepad newfile.txt
+Move 'file.txt' to 'new_folder',move file.txt new_folder
+Change directory to 'Documents',cd Documents
+Edit the file 'newfile.txt',notepad newfile.txt
+Delete the file 'example.txt',del example.txt
+Move 'file.txt' to 'new_folder',move file.txt new_folder
+Display the current branch in Git,git branch
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Push changes to remote repository,git push
+Remove a Docker container,docker rm <container_id>
+Clone a repository from GitHub,git clone <repository_url>
+Display the process status,tasklist
+Enable a service to start on boot,sc config <service_name> start= auto
+Verify the system uptime,"systeminfo | find ""System Boot Time"""
+Stop a Docker container,docker stop <container_id>
+Display hidden files,dir /a:h
+Remove the directory named 'test',rmdir test
+Stop a service,sc stop <service_name>
+Remove a Docker container,docker rm <container_id>
+Display the status of Git,git status
+Ping a server,ping <server_address>
+Remove the directory named 'test',rmdir test
+Install a package using winget,winget install <package_name>
+Pull changes from remote repository,git pull
+Display the current Python version,python --version
+Run a Node.js application,node app.js
+Display the list of running Docker containers,docker ps
+Display the last 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -Tail 10"""
+Display network connections,netstat -an
+Add changes to Git,git add .
+Verify the status of a service,sc query <service_name>
+Delete a user,net user <username> /delete
+Verify the version of Node.js,node -v
+Display the list of installed packages,winget list
+Delete a user,net user <username> /delete
+Delete the file 'example.txt',del example.txt
+Verify the status of a service,sc query <service_name>
+Display the last 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -Tail 10"""
+Push changes to remote repository,git push
+Display the routing table,route print
+Verify the version of Node.js,node -v
+Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
+Verify the current user,whoami
+Delete a user,net user <username> /delete
+Pull changes from remote repository,git pull
+Display the current network configuration,ipconfig
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Remove a package using winget,winget uninstall <package_name>
+Add changes to Git,git add .
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Stop a Docker container,docker stop <container_id>
+Verify the available memory,"systeminfo | find ""Available Physical Memory"""
+Stop a service,sc stop <service_name>
+Display the last 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -Tail 10"""
+Remove the directory named 'test',rmdir test
+Run a Node.js application,node app.js
+Go back to the previous directory,cd ..
+Display the first 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -TotalCount 10"""
+Display the current directory,cd
+Restart a service,sc restart <service_name>
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Display the list of installed packages,winget list
+Display me the contents of this folder,dir
+Display hidden files,dir /a:h
+Ping a server,ping <server_address>
+Verify the status of a service,sc query <service_name>
+Display hidden files,dir /a:h
+Stop a service,sc stop <service_name>
+Remove a Docker container,docker rm <container_id>
+Run a Docker container,docker run <image_name>
+Ping a server,ping <server_address>
+Remove a package using winget,winget uninstall <package_name>
+Display the manual for the dir command,help dir
+Build a Docker image,docker build -t <image_name> .
+Pull changes from remote repository,git pull
+Display hidden files,dir /a:h
+Verify the status of a service,sc query <service_name>
+Pull changes from remote repository,git pull
+Display the current network configuration,ipconfig
+Run a Docker container,docker run <image_name>
+Find all .txt files in this directory,dir *.txt
+Clone a repository from GitHub,git clone <repository_url>
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Change directory to 'Documents',cd Documents
+Display the manual for the dir command,help dir
+Display the process status,tasklist
+Display the current directory,cd
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Verify the status of a service,sc query <service_name>
+Display me the contents of this folder,dir
+Run a Python script,python script.py
+Display the list of users,net user
+Display the list of installed packages,winget list
+Restart a service,sc restart <service_name>
+Disable a service from starting on boot,sc config <service_name> start= disabled
+Verify for updates in the package manager,winget upgrade
+Find all .txt files in this directory,dir *.txt
+Enable a service to start on boot,sc config <service_name> start= auto
+Verify the version of Node.js,node -v
+Verify the current user,whoami
+Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Push changes to remote repository,git push
+Display hidden files,dir /a:h
+Start a service,sc start <service_name>
+Display disk space usage,"wmic logicaldisk get size,freespace,caption"
+Compress the directory 'myfolder',"powershell -command ""Compress-Archive -Path myfolder -DestinationPath myfolder.zip"""
+Add a new user,net user <username> <password> /add
