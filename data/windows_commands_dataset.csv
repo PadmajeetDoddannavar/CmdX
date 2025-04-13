@@ -10,7 +10,7 @@ Verify for updates in the package manager,winget upgrade
 Remove a package using winget,winget uninstall <package_name>
 Delete a user,net user <username> /delete
 Add a new user,net user <username> <password> /add
-Display the list of users,net user
+Display the list of users, net user
 Verify the status of a service,sc query <service_name>
 Display the last 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -Tail 10"""
 Display the list of users,net user
