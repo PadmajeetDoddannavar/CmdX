@@ -47,7 +47,7 @@ Push changes to remote repository,git push
 Move 'file.txt' to 'new_folder',move file.txt new_folder
 Run a Docker container,docker run <image_name>
 Make a file named 'newfile.txt',echo. > newfile.txt
-Restart a service,sc restart <service_name>
+Restart a service,sc  restart <service_name>
 Build a Docker image,docker build -t <image_name> .
 Remove a package using winget,winget uninstall <package_name>
 Run a Docker container,docker run <image_name>
