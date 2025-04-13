@@ -69,7 +69,7 @@ Enumerate all files in the current directory,dir
 Display the list of installed packages, winget list
 Display the first 10 lines of 'log.txt',"powershell -command ""Get-Content log.txt -TotalCount 10"""
 Ping a server,ping <server_address>
-Go back to the previous directory,cd ..
+Go back  to the previous directory,cd ..
 Enable a service to start on boot,sc config <service_name> start= auto
 Display the process status,tasklist
 Run a Python script,python script.py
