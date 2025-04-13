@@ -155,7 +155,7 @@ Stop a service,sc stop <service_name>
 Search for 'keyword' in 'file.txt',"findstr ""keyword"" file.txt"
 Ping a server,ping <server_address>
 Push changes to remote repository,git push
-Remove a package using winget,winget uninstall <package_name>
+Remove a package using winget, winget uninstall <package_name>
 Run a Python script,python script.py
 Run a Python script,python script.py
 Stop a service,sc stop <service_name>
