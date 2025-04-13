@@ -88,7 +88,7 @@ Display the current Python version,python --version
 Move 'file.txt' to 'new_folder',move file.txt new_folder
 Commit changes in Git,git commit -m 'Your message'
 Verify the system uptime,"systeminfo | find ""System Boot Time"""
-Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
+Extract the zip file ,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
 Build a Docker image,docker build -t <image_name> .
 Verify the version of Node.js,node -v
 Display disk space usage,"wmic logicaldisk get size,freespace,caption"
