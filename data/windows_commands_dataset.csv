@@ -92,7 +92,7 @@ Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -D
 Build a Docker image,docker build -t <image_name> .
 Verify the version of Node.js,node -v
 Display disk space usage,"wmic logicaldisk get size,freespace,caption"
-Delete the file 'example.txt',del example.txt
+Delete the file ' example.txt',del example.txt
 Extract the zip file,"powershell -command ""Expand-Archive -Path myfolder.zip -DestinationPath myfolder"""
 Install a package using winget,winget install <package_name>
 Pull changes from remote repository,git pull
